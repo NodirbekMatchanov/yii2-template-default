@@ -74,6 +74,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        $model = '';
         return $this->render('index');
     }
 
